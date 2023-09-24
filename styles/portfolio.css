@@ -27,6 +27,7 @@ h2 {
 
 h3 {
   font-size: 48px;
+  text-align: center;
 }
 p {
   font-weight: normal;
@@ -68,6 +69,7 @@ p {
 }
 .content p {
   font-size: 14px;
+  text-align: center;
 }
 .content {
   margin: 30px;
@@ -144,7 +146,7 @@ footer .email-link:hover {
   color: var(--branding-color);
 }
 
-footer .socail-links a {
+footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
@@ -154,7 +156,7 @@ footer .socail-links a {
   transition: all 100ms ease-in-out;
 }
 
-footer .socail-links a:hover {
+footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }

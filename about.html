@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <meta name="description" content="Shecode was a course that inspired Alicia to learn coding.">
+    <title>Learning coding with SheCodes - Alicia Rivas</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
@@ -21,28 +22,31 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="d-flex justify-content-between">
-            <a href="/" title="Homepage"></a>
-            <img src="images/logo.png" class="logo d-none d-md-block" alt="Patricia Logo" />
-            <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Patricia Logo" />
-            </a>
-            <ul>
-                <li>
-                    <a href="/" title="Homepage"> Home</a>
-                </li>
-                <li class="active">
-                    <a href="/about.html" title="About Patricia"> About</a>
-                </li>
-                <li>
-                    <a href="/work.html" title="Patricia's work"> Work</a>
-                </li>
-                <li>
-                    <a href="/contact.html" title="Contact Patricia"> Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">ALICIA RIVAS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html#contact">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="content-container container">
         <div class="row">
             <div class="col-lg-6">
@@ -55,14 +59,47 @@
                         different exercises, and everything is well explained, homework and deadlines are good for keep
                         focus
                     </p>
-                    <a href="" class="btn btn-branding">View my projects</a>
+                    <a href="/work.html" class="btn btn-branding">View my projects</a>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/patricia.png" alt="" class="img-fluid" />
+                <img src="images/alicia.png" alt="" class="img-fluid" />
             </div>
         </div>
     </div>
+    <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+            <div>
+                <h3>Work Inquiry</h3>
+                <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+                <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Alicia">Contact me</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:patricia@gmail.com" class="email-link" title="Email Alicia">arivas0205@gmail.com
+            </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://www.instagram.com/patricia" target="_blank" title="Instagram Profile">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.github.com/patricia" target="_blank" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.facebook.com/patricia" target="_blank" title="Facebook Profile">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+        <p class="text-center mt-4">
+
+            This project was coded SheCodes, and it is
+            <a href="https://github.com/arivas0205/portfolio-project-ar.git" target="_blank">
+                open-sourced</a>
+        </p>
+
+    </footer>
 </body>
 
 </html>
